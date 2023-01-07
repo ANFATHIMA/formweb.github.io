@@ -1,5 +1,5 @@
 const dob = document.getElementById("dob");
-dob.addEventListener("change", () => validateDob(dob));
+dob.addEventListener("input", () => validateDob(dob));
 function validateDob(dob){
     console.log(dob.value)
 let Date1=dob.value.split("-");
